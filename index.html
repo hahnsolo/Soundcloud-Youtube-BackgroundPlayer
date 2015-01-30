@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+    
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8">
+    
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        function onDeviceReady() 
+        { 
+            window.plugin.backgroundMode.enable();
+            
+            document.getElementById("freeaudio").addEventListener("click",audio);
+         
+            
+            function audio()
+            {
+                var ref = window.open('http://apache.org', '_system', 'location=yes');                
+            }
+            
+            
+          
+        }
+        
+        </script>
+    
+    </head>
+
+    <body>
+        
+        <section id ="stuff">
+                <section id="freeaudio" class="text">
+                    Listen To Some Tuneage!!! 
+                </section>
+        </section>
+    </body>
+
+</html>

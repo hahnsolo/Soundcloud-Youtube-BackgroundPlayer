@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.greenseedmusic.com.bgaudioplayer"
+        versionCode = "10" 
+        version     = "1.0.0" >
+    <name>hahnPlayer</name>
+
+    <description>
+        A background web view youtube player 
+    </description>
+
+    <author href="http://greenseedmusic.com" email="soundsgood@greenseedmusic.com">
+        hahnsolo 
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+   
+    <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />    
+    <gap:plugin name="de.appplant.cordova.plugin.background-mode" version="0.5.0" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+        
+</widget>
